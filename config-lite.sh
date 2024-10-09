@@ -1,4 +1,5 @@
 USER_OPT="--enable-small \
+--enable-libcurl \
 --disable-outdevs \
 --disable-filters \
 --disable-muxers \

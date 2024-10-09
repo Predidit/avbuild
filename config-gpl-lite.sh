@@ -1,4 +1,5 @@
 USER_OPT="--enable-small \
+--enable-libcurl \
 --disable-outdevs \
 --disable-filters \
 --enable-filter=*null*,afade,*fifo,*format,*resample,aeval,allrgb,allyuv,atempo,pan,*bars,color,*key,crop,draw*,eq*,framerate,*_qsv,*_vaapi,*v4l2*,hw*,scale,volume,test* \
