@@ -177,7 +177,6 @@ after_success:
   - mv sdk* ffmpeg-${FF_VERSION}-${SUFFIX}
   - tar Jcf ffmpeg-${FF_VERSION}-${SUFFIX}{.tar.xz,}
   - ls -hl ffmpeg-${FF_VERSION}-${SUFFIX}.tar.xz
-  - sshpass -p $SF_PW scp -o StrictHostKeyChecking=no ffmpeg-${FF_VERSION}-${SUFFIX}.tar.xz $SF_USER,avbuild@frs.sourceforge.net:/home/frs/project/a/av/avbuild/${TARGET_OS}
 
 branches:
   only:
